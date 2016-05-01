@@ -1,3 +1,4 @@
+# Purpose: To analyse local group membership of users on a unix server. Useful when performing an audit work and confined to a windows PC
 # Required: /etc/group and /etc/passwd file
 # Author: Sam Granger
 
