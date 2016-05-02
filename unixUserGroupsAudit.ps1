@@ -205,7 +205,7 @@ ForEach ($user in $passwd) {
 	$userID = $user.user_id
 	$groupID = $user.group_id
 	
-	$percent = ($i/$passwdCount)*10
+	$percent = ($i/$passwdCount)*100
 	$percentClean = "{0:N2}" -f $percent
 	Write-Progress -activity "Looking at membership for '$userName'" -status "$percentClean% Complete:" -percentcomplete $percent;
 	
